@@ -1,0 +1,109 @@
+{
+  "paper_title": "Tutorial Proposal: Speculative Decoding for Efficient LLM Inference",
+  "paper_url": "https://arxiv.org/pdf/2503.00491v1",
+  "societal_problem": "High latency in large language model (LLM) inference limits their usability in real-time applications such as customer support, virtual assistants, and other time-sensitive AI-driven tasks.",
+  "solution_architecture": "A production-ready software application leveraging Speculative Decoding (SD) to accelerate LLM inference for real-time applications. The architecture includes a frontend for user interaction, a backend for API orchestration, and an ML microservice for SD-based LLM inference. The tech stack includes React for the frontend, FastAPI for the backend, PyTorch for the ML microservice, and Redis for caching. Docker will be used for containerization, and Kubernetes for deployment and scaling.",
+  "status": "in_progress",
+  "tasks": [
+    {
+      "id": 1,
+      "description": "Set up project repository and initialize version control with Git.",
+      "status": "pending"
+    },
+    {
+      "id": 2,
+      "description": "Design the system architecture and document the high-level design.",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "description": "Initialize the frontend application using React and set up the basic project structure.",
+      "status": "pending"
+    },
+    {
+      "id": 4,
+      "description": "Initialize the backend application using FastAPI and set up the basic project structure.",
+      "status": "pending"
+    },
+    {
+      "id": 5,
+      "description": "Set up the ML microservice using PyTorch and create a placeholder for the Speculative Decoding implementation.",
+      "status": "pending"
+    },
+    {
+      "id": 6,
+      "description": "Implement user authentication and session management in the backend.",
+      "status": "pending"
+    },
+    {
+      "id": 7,
+      "description": "Develop the frontend interface for text input and output display.",
+      "status": "pending"
+    },
+    {
+      "id": 8,
+      "description": "Implement the Speculative Decoding algorithm in the ML microservice, including draft model and verification strategies.",
+      "status": "pending"
+    },
+    {
+      "id": 9,
+      "description": "Integrate the ML microservice with the backend API for inference requests.",
+      "status": "pending"
+    },
+    {
+      "id": 10,
+      "description": "Set up Redis for caching intermediate results to reduce latency.",
+      "status": "pending"
+    },
+    {
+      "id": 11,
+      "description": "Develop unit tests for the frontend, backend, and ML microservice.",
+      "status": "pending"
+    },
+    {
+      "id": 12,
+      "description": "Test the end-to-end flow of the application with mocked and real data.",
+      "status": "pending"
+    },
+    {
+      "id": 13,
+      "description": "Containerize the application components using Docker.",
+      "status": "pending"
+    },
+    {
+      "id": 14,
+      "description": "Set up Kubernetes for deployment and scaling of the application.",
+      "status": "pending"
+    },
+    {
+      "id": 15,
+      "description": "Deploy the application to a cloud platform (e.g., AWS, GCP, or Azure).",
+      "status": "pending"
+    },
+    {
+      "id": 16,
+      "description": "Conduct performance testing and optimize the Speculative Decoding implementation for real-time use.",
+      "status": "pending"
+    },
+    {
+      "id": 17,
+      "description": "Implement monitoring and logging for the application using tools like Prometheus and Grafana.",
+      "status": "pending"
+    },
+    {
+      "id": 18,
+      "description": "Gather user feedback and iteratively improve the application.",
+      "status": "pending"
+    },
+    {
+      "id": 19,
+      "description": "Prepare technical documentation and user guides for the application.",
+      "status": "pending"
+    },
+    {
+      "id": 20,
+      "description": "Launch the application and provide post-launch support.",
+      "status": "pending"
+    }
+  ]
+}
