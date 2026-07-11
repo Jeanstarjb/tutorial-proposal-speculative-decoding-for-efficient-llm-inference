@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ./frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    stdin_open: true
+    tty: true
+
+  backend:
+    build:
+      context: ./backend
+    ports:
+      - "8000:8000"
+
+  ml_service:
+    build:
+      context: ./ml_service
+    ports:
+      - "9000:9000"
+
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
