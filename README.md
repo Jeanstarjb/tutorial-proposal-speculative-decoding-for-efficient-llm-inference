@@ -11,3 +11,5 @@ A production-ready software application leveraging Speculative Decoding (SD) to 
 ## Progress Log
 - Repository initialized
 - Version control set up
+
+- **Completed Task:** Set up project repository and initialize version control with Git.
